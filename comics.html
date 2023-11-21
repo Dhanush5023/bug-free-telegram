@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 10px;
+            font-style: monospace;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .image-container {
+            margin: 60px;
+            text-align: center;
+            height:360px;
+            width: 250px;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-container a {
+            text-decoration: none;
+            color: white;
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+       
+        #video-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+        }
+
+        #background-video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center top;
+        }
+    </style>
+</head>
+<body>
+    <div id="video-container">
+    <video autoplay loop muted plays-inline id="background-video">
+        <source src="all images\pexels_videos_2759477 (2160p).mp4" type="video/mp4">
+    </video>
+    </div>
+    <header>
+        <h1>COMICS BOOKS</h1>
+    </header>
+
+    <main class="background">
+        <div class="image-container">
+            <a href="https://example.com/page1">
+                <img src ="all images\comics-1.jpg" alt="Image 1">
+                <p>Infinity Gauntlet</p>
+            </a>
+        </div>
+
+        <div class="image-container">
+            <a href="https://example.com/page2">
+                <img src="all images\comics-2.jpg" alt="Image 2">
+                <p>Infinity</p>
+            </a>
+        </div>
+
+        <div class="image-container">
+            <a href="https://example.com/page3">
+                <img src="all images\comics-3.jpg" alt="Image 3">
+                <p> Amazing Fantasy </p>
+            </a>
+        </div>
+
+        <div class="image-container">
+            <a href="https://example.com/page4">
+                <img src="all images\comics-4.jpg" alt="Image 4">
+                <p>Civil War </p> </p>
+            </a>
+        </div>
+
+        <div class="image-container">
+            <a href="https://example.com/page5">
+                <img src="all images\comics-5.jpg" alt="Image 5">
+                <p>Darth Vader</p>
+            </a>
+        </div>
+
+        <div class="image-container">
+            <a href="https://example.com/page6">
+                <img src="all images/comics-6.jpg" alt="Image 6">
+                <p>  Spider-Man</p>
+            </a>
+        </div>
+
+        <div class="image-container">
+            <a href="https://example.com/page1">
+                <img src ="all images\comics-7.jpg" alt="Image 7">
+                <p> Civil War II  </p>
+            </a>
+        </div>
+
+        <div class="image-container">
+            <a href="https://example.com/page1">
+                <img src ="all images\comics-8.jpg" alt="Image 8">
+                <p>Black Panther </p>
+            </a>
+        </div>
+
+        <div class="image-container">
+            <a href="https://example.com/page1">
+                <img src = "all images\comics-9.jpg"alt="Image 9">
+                <p>Thanos  </p>
+            </a>
+        </div>
+    </main>
+</body>
+</html>
